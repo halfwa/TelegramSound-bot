@@ -6,6 +6,7 @@ using TelegramSound;
 using Microsoft.Extensions.Configuration;
 using TelegramSound.Controllers;
 using TelegramSound.Services;
+using TelegramSound.Extensions;
 
 
 
@@ -40,7 +41,7 @@ static AppSettings BuildAppSettings()
 {
     return new AppSettings()
     {
-        BotToken = "YOUR API TOKEN",
-        DownloadsFolder = Path.Combine(Directory.GetCurrentDirectory(), "Downloads")
+        BotToken = "6356718263:AAFyWJmeTrzxEzGetKJAkIjKap7a33elGIc",
+        DownloadsFolder = Path.Combine(DirectoryExtension.GetProjectPath(), "Downloads")
     };
 }   

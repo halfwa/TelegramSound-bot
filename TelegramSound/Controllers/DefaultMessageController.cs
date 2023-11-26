@@ -17,7 +17,7 @@ namespace TelegramSound.Controllers
         }
         public async Task Handle(Message message, CancellationToken ct)
         {
-            var infoMessage = "Получено сообщение не поддерживаемого формата 😕";
+            var infoMessage = "Получено сообщение не поддерживаемого формата ❌";
             await _botClient.SendTextMessageAsync(message.Chat.Id, infoMessage, cancellationToken: ct);
         }
     }

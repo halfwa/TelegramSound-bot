@@ -55,7 +55,7 @@ namespace TelegramSound.Controllers
                     break;
 
                 default:
-                    await _botClient.SendTextMessageAsync(message.Chat.Id, text: "Неизвестная команда 😐 ");
+                    await _botClient.SendTextMessageAsync(message.Chat.Id, text: "Неизвестная команда ❌ ");
                     break;
             }
 

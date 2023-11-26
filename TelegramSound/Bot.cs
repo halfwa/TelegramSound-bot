@@ -66,7 +66,7 @@ namespace TelegramSound
             }
             else
             {
-                await _defaultMessageController.Handle(update.Message, cancellationToken);
+                await _defaultMessageController.Handle(update!.Message!, cancellationToken);
                 return;
             }
         }
