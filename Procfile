@@ -1,0 +1,1 @@
+worker: dotnet TelegramSound.csproj
