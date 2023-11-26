@@ -10,6 +10,6 @@ Make sure you have [installed](https://docs.docker.com/docker-for-windows/instal
 
 ```powershell
 docker build
-docker
+docker run
 ```
 
