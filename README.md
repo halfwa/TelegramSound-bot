@@ -6,7 +6,7 @@ Repo for Telegram bot for listening to music offline using:
 - Telegram.Bot 19.0.0
 - YoutubeExplode 6.0.5
 
-Hosting by Beget
+Hosting with Beget
 
 ## Getting Started
 
