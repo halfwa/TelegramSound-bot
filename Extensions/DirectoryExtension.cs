@@ -10,7 +10,7 @@ namespace TelegramSound.Extensions
     {
         public static string GetProjectPath()
         {
-            return Path.GetFullPath(Directory.GetCurrentDirectory() + $@"\..\..\..\..\..\");
+            return Path.GetFullPath(Directory.GetCurrentDirectory() + $@"\..\..\..\");
         }
     }
 }

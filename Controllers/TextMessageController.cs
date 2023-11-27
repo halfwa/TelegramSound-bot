@@ -42,8 +42,9 @@ namespace TelegramSound.Controllers
                     await _botClient.SendTextMessageAsync(message.Chat.Id, text: "Что бы скачать видео следуйте инструкции\nПример с получением видео: https://youtu.be/videoId видео", replyMarkup: button);
                     break;
 
-                case string s when s!.StartsWith("https://www.youtube.com/"):
-
+                case string s when s!.StartsWith("https://www.youtube.com") ||
+                                   s!.StartsWith("https://youtu.be"):
+                                
                     await _fileHandler.ProcessAudio(message, ct);
 
                     // Получение ссылки на видео от пользователя

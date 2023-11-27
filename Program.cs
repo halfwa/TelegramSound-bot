@@ -41,7 +41,7 @@ static AppSettings BuildAppSettings()
 {
     return new AppSettings()
     {
-        BotToken = "6356718263:AAFyWJmeTrzxEzGetKJAkIjKap7a33elGIc",
+        BotToken = "YOUR API TOKEN",
         DownloadsFolder = Path.Combine(DirectoryExtension.GetProjectPath(), "Downloads")
     };
 }   
