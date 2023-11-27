@@ -1,8 +1,12 @@
 # TelegramSound-bot
+
+## Description
 Repo for Telegram bot for listening to music offline using:
 - .NET 7.0
 - Telegram.Bot 19.0.0
 - YoutubeExplode 6.0.5
+
+Hosting by Beget
 
 ## Getting Started
 
